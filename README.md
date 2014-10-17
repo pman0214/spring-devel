@@ -1,6 +1,5 @@
 # Spring Framework Javaアプリ開発環境
 
-## 概要
 - このレポジトリにはSpring Frameworkを使用したJavaアプリを開発するLinux環境を提供するためのVagrant関連ファイルが格納されています
 - Vagrantを使用して半自動的に環境を構築できます
 
@@ -27,3 +26,8 @@
 
 ## 環境構築手順
 - `doc/Setup.md`参照
+
+
+## Copyright, License
+- Copyright (c) 2014, Shigemi ISHIDA
+- This software is released under the BSD 3-clause license: See `LICENSE`.
