@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'sudo'
+cookbook 'tomcat'
+cookbook 'maven'
+
+cookbook 'apt', :git => 'https://github.com/pman0214/apt.git', :ref => 'debian_jessie_tmp'
+cookbook 'git', :git => 'https://github.com/jssjr/git.git'
+cookbook 'java', :git => 'https://github.com/pman0214/java.git', :ref => 'debian_sid'
+cookbook 'eclipse', :git => 'https://github.com/geocent-cookbooks/eclipse.git'
+cookbook 'mosquitto', :git => 'https://github.com/pman0214/chef-mosquitto.git', :ref => 'debian_sid'

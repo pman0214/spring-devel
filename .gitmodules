@@ -1,0 +1,54 @@
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = https://github.com/pman0214/apt.git
+	branch = debian_jessie_tmp
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = https://github.com/jssjr/git.git
+[submodule "cookbooks/eclipse"]
+	path = cookbooks/eclipse
+	url = https://github.com/geocent-cookbooks/eclipse.git
+[submodule "cookbooks/java"]
+	path = cookbooks/java
+	url = https://github.com/pman0214/java.git
+	branch = debian_sid
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/maven"]
+	path = cookbooks/maven
+	url = https://github.com/opscode-cookbooks/maven.git
+[submodule "cookbooks/tomcat"]
+	path = cookbooks/tomcat
+	url = https://github.com/opscode-cookbooks/tomcat.git
+[submodule "cookbooks/mosquitto"]
+	path = cookbooks/mosquitto
+	url = https://github.com/pman0214/chef-mosquitto.git
+	branch = debian_sid
+[submodule "cookbooks/dmg"]
+	path = cookbooks/dmg
+	url = https://github.com/opscode-cookbooks/dmg.git
+[submodule "cookbooks/runit"]
+	path = cookbooks/runit
+	url = https://github.com/cookbooks/runit.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = https://github.com/opscode-cookbooks/windows.git
+[submodule "cookbooks/ark"]
+	path = cookbooks/ark
+	url = https://github.com/burtlo/ark.git
+[submodule "cookbooks/7-zip"]
+	path = cookbooks/7-zip
+	url = https://github.com/opscode-cookbooks/7-zip.git
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = https://github.com/opscode-cookbooks/yum.git
+[submodule "cookbooks/yum-epel"]
+	path = cookbooks/yum-epel
+	url = https://github.com/opscode-cookbooks/yum-epel.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git
+[submodule "cookbooks/chef_handler"]
+	path = cookbooks/chef_handler
+	url = https://github.com/opscode-cookbooks/chef_handler.git
