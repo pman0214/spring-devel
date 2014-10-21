@@ -1,0 +1,17 @@
+diff --git a/Vagrantfile b/Vagrantfile
+index 97f5630..f295dba 100644
+--- a/Vagrantfile
++++ b/Vagrantfile
+@@ -39,6 +39,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+   #----------------------------------------------------------------------
+   # network
+   #----------------------------------------------------------------------
++  if Vagrant.has_plugin?("vagrant-proxyconf")
++    config.proxy.http     = "http://vmproxy.f.ait.kyushu-u.ac.jp:13128"
++    config.proxy.https    = "https://vmproxy.f.ait.kyushu-u.ac.jp:13128"
++    config.proxy.no_proxy = "localhost,127.0.0.1"
++  end
++
+   #------------------------------
+   # forwarding
+   #------------------------------
