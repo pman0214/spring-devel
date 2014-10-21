@@ -45,16 +45,12 @@ $ vagrant plugin install vagrant-proxyconf
 
 ```
 $ git clone https://github.com/pman0214/spring-devel.git
+$ cd spring-devel
 $ git submodule init
 $ git submodule update
 ```
 
 ### 仮想マシンの起動と設定
-- 先ほどcloneしたディレクトリに入る．
-
-```
-$ cd spring-devel
-```
 
 - Javaのインストールには許諾に同意する必要があるので，`Vagrantfile`を編集し，`accept_oracle_download_terms`の値を`false`から`true`に書き換える．
 - 仮想マシンを起動する．
