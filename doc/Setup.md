@@ -53,7 +53,7 @@ $ git submodule update
 - 先ほどcloneしたディレクトリに入る．
 
 ```
-$ cd spring-devel.git
+$ cd spring-devel
 ```
 
 - Javaのインストールには許諾に同意する必要があるので，`Vagrantfile`を編集し，`accept_oracle_download_terms`の値を`false`から`true`に書き換える．
